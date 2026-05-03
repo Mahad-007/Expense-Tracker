@@ -1,0 +1,24 @@
+{
+  "name": "ExpenseTracker",
+  "displayName": "ExpenseTracker",
+  "expo": {
+    "name": "ExpenseTracker",
+    "slug": "expense-tracker",
+    "version": "1.0.0",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/UPDATE_PROJECT_ID",
+      "enabled": true,
+      "checkAutomatically": "ALWAYS",
+      "fallbackToCacheTimeout": 0
+    },
+    "android": {
+      "package": "com.expensetracker"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "UPDATE_PROJECT_ID"
+      }
+    }
+  }
+}

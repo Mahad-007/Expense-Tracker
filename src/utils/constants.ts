@@ -1,0 +1,45 @@
+export const COLORS = {
+  primary: '#4F46E5',
+  primaryLight: '#818CF8',
+  secondary: '#0EA5E9',
+  success: '#22C55E',
+  danger: '#EF4444',
+  warning: '#F59E0B',
+  processing: '#F97316',
+  background: '#F8FAFC',
+  surface: '#FFFFFF',
+  text: '#1E293B',
+  textSecondary: '#64748B',
+  textMuted: '#94A3B8',
+  border: '#E2E8F0',
+  income: '#22C55E',
+  expense: '#EF4444',
+};
+
+export const CATEGORY_ICONS: Record<string, string> = {
+  Salary: 'cash-multiple',
+  Freelance: 'laptop',
+  'Other Income': 'plus-circle',
+  Food: 'food',
+  Transport: 'car',
+  Rent: 'home',
+  Utilities: 'flash',
+  Internet: 'wifi',
+  Subscriptions: 'refresh',
+  'Office Supplies': 'briefcase',
+  'Other Expense': 'dots-horizontal-circle',
+};
+
+export const PIE_CHART_COLORS = [
+  '#4F46E5',
+  '#0EA5E9',
+  '#22C55E',
+  '#F59E0B',
+  '#EF4444',
+  '#8B5CF6',
+  '#EC4899',
+  '#14B8A6',
+  '#F97316',
+  '#6366F1',
+  '#84CC16',
+];
