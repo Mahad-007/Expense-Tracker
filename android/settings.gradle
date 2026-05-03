@@ -7,7 +7,7 @@ plugins {
     id("expo-autolinking-settings")
 }
 extensions.configure(com.facebook.react.ReactSettingsExtension){ ex -> ex.autolinkLibrariesFromCommand() }
-expo { useExpoModules() }
+expoAutolinking { useExpoModules() }
 rootProject.name = 'ExpenseTracker'
 include ':app'
 includeBuild('../node_modules/@react-native/gradle-plugin')
